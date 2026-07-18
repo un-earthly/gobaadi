@@ -28,8 +28,8 @@ export const siteConfig = {
   address: "Road# 9, House# 5, Lane#3, Mirpur 11/a, Dhaka, 1216, Bangladesh",
   social: {
     facebook: "https://facebook.com/gobadi",
-    instagram: "https://instagram.com/gobadi",
-    twitter: "https://x.com/gobadi",
+    // instagram: "https://instagram.com/gobadi",
+    // twitter: "https://x.com/gobadi",
     linkedin: "https://linkedin.com/company/gobadi",
   },
 } satisfies Record<string, unknown>;
