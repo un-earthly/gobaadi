@@ -44,11 +44,11 @@ export function Header() {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
         isScrolled
-          ? "bg-white/90 shadow-lg shadow-black/[0.03] backdrop-blur-xl"
+          ? "bg-white/50 shadow-lg shadow-black/[0.03] backdrop-blur-xl"
           : "bg-transparent"
       )}
     >
-      <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto container px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group" aria-label="Gobadi Home">

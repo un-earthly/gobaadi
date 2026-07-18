@@ -4,8 +4,6 @@ export const navLinks: NavLink[] = [
   { href: "#home", label: "Home" },
   { href: "#vision", label: "Our Vision" },
   { href: "#about", label: "About Us" },
-  { href: "#features", label: "Features" },
-  { href: "#contact", label: "Contact" },
 ];
 
 export const footerLinks = {

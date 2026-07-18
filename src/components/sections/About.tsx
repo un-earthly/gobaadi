@@ -8,7 +8,15 @@ import { AnimatedSection } from "@/components/shared/AnimatedSection";
 export function About() {
   return (
     <section id="about" aria-labelledby="about-heading" className="relative">
-      <div className="relative min-h-[600px] overflow-hidden lg:min-h-[900px]">
+      <div
+        style={{
+          backgroundImage: "url('/images/about/field&sky.png')",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "top center",
+          backgroundSize: "100% 120%",
+        }}
+
+        className="relative min-h-150 overflow-hidden lg:min-h-[900px]">
         {/* Field Background */}
         <div
           className="absolute inset-0 z-0"
@@ -28,12 +36,7 @@ export function About() {
         {/* Sky */}
         <div
           className="absolute left-0 right-0 top-0 z-10 h-[300px] lg:h-[500px]"
-          style={{
-            backgroundImage: "url('/images/about/sky.png')",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "top center",
-            backgroundSize: "100% 120%",
-          }}
+
           aria-hidden
         />
 

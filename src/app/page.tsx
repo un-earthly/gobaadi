@@ -17,11 +17,8 @@ export default function Home() {
       <Hero />
       <Vision />
       <About />
-      <Features />
-      <Statistics />
       <ComingSoon />
       <FAQ />
-      <CTA />
       <Contact />
     </>
   );

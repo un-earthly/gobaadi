@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export function Hero() {
   return (
     <section id="home" aria-label="Hero section" className="relative pt-20">
-      <div className="bg-gradient-to-br from-[#FAF8F7] via-[#F5F0EC] to-[#F0ECE9] overflow-hidden">
+      <div className="hidden lg:block bg-linear-to-br from-[#FAF8F7] via-[#F5F0EC] to-[#F0ECE9] overflow-hidden">
         <Container size="wide" className="py-10 lg:py-16">
           <div className="relative space-y-4 lg:space-y-8">
             {/* Top Row */}
@@ -28,8 +28,8 @@ export function Hero() {
                   priority
                   sizes="(min-width: 1024px) 60vw, 100vw"
                 />
-                <div className="absolute top-[10%] left-[6%] sm:top-[12%] sm:left-[8%]">
-                  <h1 className="font-tusker font-semibold tracking-[0.08em] leading-[1.3] text-[28px] sm:text-[40px] md:text-[56px] lg:text-[67px]">
+                <div className="absolute top-[10%] left-0 sm:top-[12%] sm:left-[6%]">
+                  <h1 className="font-tusker font-normal text-[28px] sm:text-[40px] md:text-[56px] lg:text-[72px]">
                     <span className="text-text-primary">Where </span>
                     <span className="text-brand-primary">Livestock</span>
                     <br />
@@ -45,7 +45,7 @@ export function Hero() {
                 initial={{ opacity: 0, x: 40 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
-                className="hidden lg:flex flex-col relative min-h-[470px] overflow-visible"
+                className="hidden lg:flex flex-col relative min-h-117.5 overflow-visible"
               >
                 <Image
                   src="/images/hero/banner-cow-bg.png"
@@ -59,7 +59,7 @@ export function Hero() {
                   alt="Cow standing on a green pasture representing Gobadi livestock platform"
                   width={509}
                   height={529}
-                  className="absolute z-10 h-[550px] w-full -mt-[92px] object-contain"
+                  className="absolute z-10 h-137.5 w-full -mt-16.5 object-contain"
                   sizes="(min-width: 1024px) 32vw, 100vw"
                   priority
                 />
@@ -75,19 +75,18 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="flex flex-col gap-4 sm:gap-6 lg:w-[26%]"
               >
-                <div className="flex flex-1 flex-col justify-center rounded-[30px] bg-brand-primary p-6 md:aspect-[4/3]">
-                  <h2 className="font-tusker font-extrabold uppercase leading-[1.1] text-[30px] md:text-[64px]">
+                <div className="flex flex-1 flex-col justify-center rounded-[30px] bg-brand-primary p-6 md:aspect-4/3">
+                  <h2 className="font-tusker ml-6 font-normal uppercase leading-[1.1] text-[30px] md:text-[64px] flex flex-col gap-6">
                     <span className="text-brand-secondary">STAY</span>
-                    <br />
                     <span className="text-white">Tuned...</span>
                   </h2>
                 </div>
 
-                <div className="relative flex flex-col justify-center overflow-hidden rounded-[40px] border border-border bg-white p-5 shadow-sm min-h-[150px] lg:min-h-[165px]">
-                  <span className="text-[18px] font-semibold uppercase tracking-wide text-text-primary md:text-[24px]">
+                <div className="relative flex flex-col justify-center overflow-hidden rounded-[30px] border border-border bg-white p-5 shadow-sm min-h-48">
+                  <span className="text-[18px] font-semibold  tracking-wide text-text-primary md:text-[24px] mb-3">
                     We are near to:
                   </span>
-                  <span className="z-10 text-[44px] font-semibold leading-none text-brand-primary md:text-[88px]">
+                  <span className="z-10 text-7xl font-semibold font-tusker leading-none text-brand-primary md:text-[88px]">
                     Launch
                   </span>
                   <Image
@@ -141,8 +140,8 @@ export function Hero() {
                     <span className="block lg:pl-48">AI-powered digital platform</span>
                     <span className="block lg:pl-44">transforming the livestock</span>
                     <span className="block lg:pl-40">eco-system by connecting</span>
-                    <span className="block lg:pl-24">farmers, veterinarians, and also</span>
-                    <span className="block">trusted providers in one place.</span>
+                    <span className="block lg:pl-20">farmers, veterinarians, and also</span>
+                    <span className="block pl-12">trusted providers in one place.</span>
                   </p>
                 </div>
               </motion.div>
@@ -166,6 +165,10 @@ export function Hero() {
             </motion.div>
           </div>
         </Container>
+      </div>
+      <div className="lg:hidden bg-linear-to-br from-[#FAF8F7] via-[#F5F0EC] to-[#F0ECE9] overflow-hidden">
+
+
       </div>
     </section>
   );

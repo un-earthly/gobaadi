@@ -13,7 +13,7 @@ export function Container({ className, size = "default", children, ...props }: C
         {
           "max-w-7xl": size === "default",
           "max-w-5xl": size === "narrow",
-          "max-w-[1440px]": size === "wide",
+          "max-w-360": size === "wide",
           "max-w-none": size === "full",
         },
         className

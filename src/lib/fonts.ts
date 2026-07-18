@@ -29,6 +29,16 @@ export const audiowide = Audiowide({
 export const tuskerGrotesk = localFont({
   src: [
     {
+      path: "../../public/fonts/TuskerGrotesk-6500Medium-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/TuskerGrotesk-6500Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
       path: "../../public/fonts/TuskerGrotesk-6600Semibold.ttf",
       weight: "600",
       style: "normal",

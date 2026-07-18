@@ -25,16 +25,16 @@ export const socialLinks: SocialLink[] = [
     href: siteConfig.social.facebook,
     icon: "facebook",
   },
-  {
-    name: "Instagram",
-    href: siteConfig.social.instagram,
-    icon: "instagram",
-  },
-  {
-    name: "X (Twitter)",
-    href: siteConfig.social.twitter,
-    icon: "twitter",
-  },
+  // {
+  //   name: "Instagram",
+  //   href: siteConfig.social.instagram,
+  //   icon: "instagram",
+  // },
+  // {
+  //   name: "X (Twitter)",
+  //   href: siteConfig.social.twitter,
+  //   icon: "twitter",
+  // },
   {
     name: "LinkedIn",
     href: siteConfig.social.linkedin,

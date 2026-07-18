@@ -88,7 +88,7 @@ export function Footer() {
           </div>
 
           {/* Services */}
-          <div>
+          {/* <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/90">
               Services
             </h3>
@@ -104,7 +104,7 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Support */}
           <div>
@@ -126,23 +126,25 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/90">
-              Contact
-            </h3>
-            <ul className="space-y-3 text-sm text-white/50">
-              <li>
-                <a href={`mailto:${siteConfig.email}`} className="hover:text-white transition-colors">
-                  {siteConfig.email}
-                </a>
-              </li>
-              <li>
-                <a href={`tel:${siteConfig.phone}`} className="hover:text-white transition-colors">
-                  {siteConfig.phone}
-                </a>
-              </li>
-              <li className="leading-relaxed">{siteConfig.address}</li>
-            </ul>
+          <div className="col-span-2 flex">
+            <div className="ml-auto">
+              <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/90">
+                Contact
+              </h3>
+              <ul className="space-y-3 text-sm text-white/50">
+                <li>
+                  <a href={`mailto:${siteConfig.email}`} className="hover:text-white transition-colors">
+                    {siteConfig.email}
+                  </a>
+                </li>
+                <li>
+                  <a href={`tel:${siteConfig.phone}`} className="hover:text-white transition-colors">
+                    {siteConfig.phone}
+                  </a>
+                </li>
+                <li className="leading-relaxed w-2/3">{siteConfig.address}</li>
+              </ul>
+            </div>
           </div>
         </div>
 
