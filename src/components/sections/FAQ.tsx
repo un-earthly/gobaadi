@@ -12,6 +12,7 @@ export function FAQ() {
       <Container size="narrow">
         <AnimatedSection>
           <SectionHeader
+            headingId="faq-heading"
             badge="FAQ"
             title="Frequently Asked Questions"
             description="Find answers to common questions about Gobadi and how our platform can transform your livestock management."

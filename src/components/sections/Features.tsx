@@ -63,6 +63,7 @@ export function Features() {
       <Container size="wide">
         <AnimatedSection>
           <SectionHeader
+            headingId="features-heading"
             badge="Our Features"
             title="Everything You Need for Smarter Livestock Management"
             description="From AI-powered health insights to a trusted marketplace, Gobadi provides a complete ecosystem for modern livestock management."

@@ -53,6 +53,7 @@ export function Vision() {
           <div className="flex flex-col gap-10 lg:col-span-6">
             <AnimatedSection>
               <SectionHeader
+                headingId="vision-heading"
                 badge="Our Visions"
                 title="Empowering Smarter Animal Care Through AI"
                 description="Gobadi is building a unified digital ecosystem where animal care becomes faster, smarter, and more accessible. Our goal is to improve animal wellbeing through AI-driven insights, expert consultation, and trusted marketplace solutions."

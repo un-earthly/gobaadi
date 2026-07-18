@@ -25,7 +25,7 @@ export function ComingSoon() {
 
         <AnimatedSection delay={0.3} direction="right" className="flex items-end justify-end">
           <div className="h-200">
-            <img src="/images/coming-soon/app-preview.png" alt="" />
+            <img src="/images/coming-soon/app-preview.png" alt="Preview of the upcoming Gobadi mobile app interface" />
           </div>
         </AnimatedSection>
       </div>

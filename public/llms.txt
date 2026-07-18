@@ -1,0 +1,17 @@
+# Gobadi
+
+> Gobadi is an AI-powered digital platform transforming the livestock ecosystem by connecting farmers, veterinarians, and trusted service providers in one intelligent platform.
+
+Gobadi enables farmers to access veterinary care, book services from licensed veterinarians, receive AI-assisted animal health insights, and generate personalized livestock management content. Veterinarians can use AI to create educational content, share expert knowledge, and provide digital consultations more efficiently.
+
+## Key facts
+
+- Category: AgriTech / livestock management platform
+- Audience: farmers, veterinarians, and livestock service providers
+- Core features: AI-driven health insights, veterinary marketplace, digital consultations, livestock tracking
+- Contact: ceo.gobaadi@gmail.com
+- Location: Dhaka, Bangladesh
+
+## Pages
+
+- [Homepage](https://gobaadi.com): overview of the platform, features, FAQ, and contact information

@@ -4,6 +4,7 @@ import type { HTMLAttributes } from "react";
 interface SectionHeaderProps extends HTMLAttributes<HTMLDivElement> {
   badge?: string;
   title: string;
+  headingId?: string;
   description?: string;
   align?: "left" | "center";
   titleClassName?: string;
@@ -13,6 +14,7 @@ interface SectionHeaderProps extends HTMLAttributes<HTMLDivElement> {
 export function SectionHeader({
   badge,
   title,
+  headingId,
   description,
   align = "center",
   className,
@@ -37,6 +39,7 @@ export function SectionHeader({
         </span>
       )}
       <h2
+        id={headingId}
         className={cn(
           "text-3xl font-semibold tracking-tight text-text-primary md:text-5xl lg:text-[56px] lg:leading-[1.15]",
           titleClassName

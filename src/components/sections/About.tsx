@@ -17,22 +17,6 @@ export function About() {
         }}
 
         className="relative min-h-150 overflow-hidden lg:min-h-[900px]">
-        {/* Field Background */}
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage: "url('/images/about/field.png')",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center top",
-            backgroundSize: "100% 115%",
-            maskImage:
-              "linear-gradient(to bottom, transparent 0px, transparent 170px, rgba(0,0,0,0.2) 210px, rgba(0,0,0,0.6) 250px, black 300px)",
-            WebkitMaskImage:
-              "linear-gradient(to bottom, transparent 0px, transparent 170px, rgba(0,0,0,0.2) 210px, rgba(0,0,0,0.6) 250px, black 300px)",
-          }}
-          aria-hidden
-        />
-
         {/* Sky */}
         <div
           className="absolute left-0 right-0 top-0 z-10 h-[300px] lg:h-[500px]"
@@ -45,6 +29,7 @@ export function About() {
           <Container size="narrow">
             <AnimatedSection>
               <SectionHeader
+                headingId="about-heading"
                 badge="About Us"
                 title="Who We Are"
                 description="Our platform enables farmers to access veterinary care, book services from licensed veterinarians, receive AI-assisted health insights, and generate personalized livestock management content. Veterinarians can also use AI to create educational content, share expert knowledge, and provide digital consultations more efficiently."
